@@ -1,0 +1,16 @@
+.box{
+    width: 600px;
+    height: 600px;
+    margin: 30px auto;
+    background-color: chartreuse;
+    border: 5px solid deeppink;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.box:hover{
+    border-radius: 50%;
+    background-color: darkorchid;
+    transform: rotate(720deg);
+    transform: scale(2);
+}

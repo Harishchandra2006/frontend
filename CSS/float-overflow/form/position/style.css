@@ -1,0 +1,43 @@
+*{
+    height: 1000vh;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: blanchedalmond;
+    margin-left: 400px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.blue{
+    background-color: blue;
+    position: fixed;
+    right: 1200px;
+    top: 600px;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 200px;
+    border-radius: 50%;
+}
